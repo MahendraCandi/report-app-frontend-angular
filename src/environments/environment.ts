@@ -6,7 +6,8 @@ export const environment = {
   production: false,
   apiHost: 'http://localhost:8123',
   apiGenerateToken: '/token/generateToken',
-  apiGenerateFallback: '/api/fallback/report/generate'
+  apiGenerateFallback: '/api/fallback/report/generate',
+  apiGenerateProfilingActivity: '/api/profiling-activity/report/generate'
 };
 
 /*

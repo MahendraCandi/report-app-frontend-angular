@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { FallbackReportComponent } from './fallback-report/fallback-report.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ProfilingActivityComponent } from './profiling-activity/profiling-activity.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FallbackReportComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ProfilingActivityComponent
   ],
   imports: [
     BrowserModule,
